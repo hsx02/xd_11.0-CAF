@@ -308,6 +308,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+QCOM_SOONG_NAMESPACE := \
+    hardware/qcom-caf/msm8996-q
+
 # Speed up
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
